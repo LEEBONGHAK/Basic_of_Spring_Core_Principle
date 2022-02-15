@@ -1,4 +1,4 @@
-package hello.core.service;
+package hello.core.memberService;
 
 import hello.core.member.Member;
 

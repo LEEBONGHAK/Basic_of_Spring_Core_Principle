@@ -1,12 +1,15 @@
-package hello.core.service;
+package hello.core.memberService;
 
 import hello.core.member.Member;
 import hello.core.repository.MemberRepository;
-import hello.core.repository.MemoryMemberRepository;
 
-public class MemberServiceImpl implements hello.core.service.MemberService {
+public class MemberServiceImpl implements MemberService {
 
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final MemberRepository memberRepository;
+
+    public MemberServiceImpl(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
 
     @Override
     public void join(Member member) {
