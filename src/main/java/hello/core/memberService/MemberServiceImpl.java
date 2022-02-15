@@ -4,7 +4,7 @@ import hello.core.member.Member;
 import hello.core.repository.MemberRepository;
 import hello.core.repository.MemoryMemberRepository;
 
-public class MemberServiceimpl implements MemberService {
+public class MemberServiceImpl implements hello.core.service.MemberService {
 
     private final MemberRepository memberRepository = new MemoryMemberRepository();
 
