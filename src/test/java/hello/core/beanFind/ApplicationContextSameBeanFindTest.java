@@ -1,9 +1,7 @@
 package hello.core.beanFind;
 
-import hello.core.AppConfig;
 import hello.core.repository.MemberRepository;
 import hello.core.repository.MemoryMemberRepository;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.NoUniqueBeanDefinitionException;
@@ -11,7 +9,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import javax.swing.plaf.synth.SynthSpinnerUI;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
