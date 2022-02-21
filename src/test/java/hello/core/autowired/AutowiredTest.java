@@ -6,8 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.lang.Nullable;   // 자동 주입할 대상이 없으면 null
-
-import java.lang.annotation.Annotation;
 import java.util.Optional;
 
 public class AutowiredTest {
